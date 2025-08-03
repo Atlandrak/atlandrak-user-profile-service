@@ -1,0 +1,11 @@
+# Ignore the node_modules directory, as dependencies will be installed inside the container.
+node_modules
+
+# Ignore the distribution folder, which contains compiled output. It will be generated inside the container.
+dist
+
+# Ignore environment files, as secrets should be handled securely, not baked into the image.
+.env
+
+# Ignore npm debug logs.
+npm-debug.log
